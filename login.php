@@ -1,7 +1,7 @@
 <?php
 //login.php
 
-include("../src/database_connection.php");
+include("database_connection.php");
 
 if(isset($_COOKIE["user_id"]) && isset($_COOKIE["user_name"]))
 {
